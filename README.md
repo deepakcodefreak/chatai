@@ -4,9 +4,8 @@
 https://chatai-liard.vercel.app/
 
 ## How to run 
-
-$ npm i 
-$ npm run dev 
+* npm i 
+* npm run dev 
 
 ## What is done ? 
 * All the must do features are implemented

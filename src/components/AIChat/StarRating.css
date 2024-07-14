@@ -1,0 +1,16 @@
+.star-rating-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.stars {
+    display: flex;
+    column-gap: 5px;
+}
+
+.star {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}

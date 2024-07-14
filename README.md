@@ -9,7 +9,8 @@ $ npm i
 $ npm run dev 
 
 ## What is done ? 
-* All the must do features are implemented 
+* All the must do features are implemented
+* Bonus features 
 
 ## What is not done ?
 * Unit test not done

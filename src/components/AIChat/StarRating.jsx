@@ -1,13 +1,15 @@
 import PropTypes from 'prop-types';
 import './StarRating.css';
+import starFilled from './../../assets/star-filled.svg';
+import starEmpty from './../../assets/star-empty.svg';
 
 const StarRating = ({ totalStars = 5, filledStars = 3, filledState = 'filled', onStarClick }) => {
 
   const getStarImageURL = (index) => {
     if (filledState === 'filled' && index <= filledStars - 1) {
-      return 'src/assets/star-filled.svg';
+      return starFilled
     } else {
-      return 'src/assets/star-empty.svg';
+      return starEmpty;
     }
   };
 
